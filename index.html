@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SASC Infra Solution Pvt Ltd | ERP, SAP Business One &amp; Digital Transformation, Bangalore</title>
+<meta name="description" content="SASC Infra Solution Private Limited — ERP consulting, SAP Business One implementation &amp; support, custom software, BI dashboards, database management and IT support for growing businesses in Bangalore, India.">
+<meta name="keywords" content="SAP Business One Bangalore, ERP consulting India, SASC Infra Solution, business automation, digital transformation, Power BI dashboards, ERP implementation">
+<meta name="author" content="SASC Infra Solution Private Limited">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.sascinfra.com/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SASC Infra Solution Private Limited | ERP &amp; Digital Transformation Partner">
+<meta property="og:description" content="Your trusted partner for ERP, SAP Business One, Business Intelligence and Digital Transformation.">
+<meta property="og:url" content="https://www.sascinfra.com/">
+<meta property="og:site_name" content="SASC Infra Solution Private Limited">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SASC Infra Solution Private Limited">
+<meta name="twitter:description" content="Your Trusted Partner for ERP, Business Automation &amp; Digital Transformation">
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SASC Infra Solution Private Limited",
+  "url": "https://www.sascinfra.com/",
+  "logo": "https://www.sascinfra.com/logo.png",
+  "description": "ERP consulting, SAP Business One implementation and support, custom software development, business intelligence and IT support services.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "BTM Layout 2nd Stage",
+    "addressLocality": "Bangalore",
+    "addressRegion": "Karnataka",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91-97869-27428",
+  "sameAs": []
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --primary:#0056D2;
+  --primary-dark:#00399b;
+  --secondary:#0D1B2A;
+  --accent:#00C6FF;
+  --bg:#F8FAFC;
+  --surface:#FFFFFF;
+  --text:#1F2937;
+  --muted:#5b6b80;
+  --border:rgba(13,27,42,0.09);
+  --glass:rgba(255,255,255,0.55);
+  --glass-border:rgba(255,255,255,0.35);
+  --shadow:0 20px 50px -20px rgba(13,27,42,0.25);
+  --radius:16px;
+  --grad: linear-gradient(135deg,var(--primary) 0%, var(--accent) 100%);
+  --font-head:'Sora',sans-serif;
+  --font-body:'Inter',sans-serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+[data-theme="dark"]{
+  --bg:#080f1a;
+  --surface:#0f1c2c;
+  --text:#e9f1fb;
+  --muted:#93a5ba;
+  --border:rgba(255,255,255,0.09);
+  --glass:rgba(15,28,44,0.55);
+  --glass-border:rgba(255,255,255,0.08);
+  --shadow:0 20px 60px -20px rgba(0,0,0,0.6);
+}
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} *{animation-duration:0.01ms !important; transition-duration:0.01ms !important;} }
+body{
+  margin:0; font-family:var(--font-body); background:var(--bg); color:var(--text);
+  -webkit-font-smoothing:antialiased; transition:background .4s ease,color .4s ease;
+  overflow-x:hidden;
+}
+h1,h2,h3,h4{font-family:var(--font-head); margin:0; color:var(--text); letter-spacing:-0.02em;}
+p{line-height:1.7; color:var(--muted); margin:0;}
+a{text-decoration:none; color:inherit;}
+img{max-width:100%; display:block;}
+button{font-family:inherit; cursor:pointer;}
+.container{max-width:1240px; margin:0 auto; padding:0 24px;}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px; font-family:var(--font-mono); font-size:12px;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--primary); font-weight:500;
+  background:rgba(0,86,210,0.08); padding:6px 14px; border-radius:99px; border:1px solid rgba(0,86,210,0.18);
+}
+.section{padding:110px 0;}
+.section-head{max-width:640px; margin:0 0 56px;}
+.section-head h2{font-size:clamp(28px,4vw,42px); font-weight:700; margin-top:14px;}
+.section-head p{margin-top:14px; font-size:16.5px;}
+.split-head{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; flex-wrap:wrap;}
+::selection{background:var(--accent); color:#fff;}
+
+/* buttons */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:14px 28px;
+  border-radius:99px; font-weight:600; font-size:15px; border:1px solid transparent; transition:all .3s cubic-bezier(.2,.8,.2,1);
+  white-space:nowrap;
+}
+.btn-primary{background:var(--grad); color:#fff; box-shadow:0 10px 30px -8px rgba(0,86,210,0.55);}
+.btn-primary:hover{transform:translateY(-3px); box-shadow:0 16px 36px -8px rgba(0,86,210,0.65);}
+.btn-ghost{background:var(--glass); color:var(--text); border:1px solid var(--border); backdrop-filter:blur(12px);}
+.btn-ghost:hover{border-color:var(--primary); color:var(--primary); transform:translateY(-3px);}
+.btn-sm{padding:9px 18px; font-size:13px;}
+
+/* ============ NAV ============ */
+header{
+  position:fixed; top:0; left:0; right:0; z-index:1000; transition:all .35s ease;
+  padding:20px 0;
+}
+header.scrolled{
+  padding:10px 0; background:var(--glass); backdrop-filter:blur(18px) saturate(160%);
+  border-bottom:1px solid var(--glass-border); box-shadow:0 8px 30px -18px rgba(0,0,0,.25);
+}
+.nav-wrap{display:flex; align-items:center; justify-content:space-between; gap:24px;}
+.logo{display:flex; align-items:center; gap:10px; font-family:var(--font-head); font-weight:700; font-size:19px;}
+.logo-mark{
+  width:38px; height:38px; border-radius:10px; background:var(--grad); display:flex; align-items:center; justify-content:center;
+  color:#fff; font-weight:800; font-size:15px; box-shadow:0 8px 18px -6px rgba(0,86,210,.6);
+}
+.logo small{display:block; font-family:var(--font-body); font-weight:500; font-size:10.5px; color:var(--muted); letter-spacing:.03em;}
+nav.links{display:flex; align-items:center; gap:2px;}
+nav.links a{
+  padding:9px 15px; font-size:14px; font-weight:500; color:var(--muted); border-radius:99px; transition:all .25s ease; position:relative;
+}
+nav.links a:hover, nav.links a.active{color:var(--text); background:rgba(0,86,210,0.09);}
+.nav-actions{display:flex; align-items:center; gap:10px;}
+.header-phones{display:flex; align-items:center; gap:12px; font-size:12px; font-weight:600; color:var(--muted); padding-right:8px; border-right:1px solid var(--border); margin-right:4px;}
+.header-phones a{color:var(--muted); transition:color .2s ease;}
+.header-phones a:hover{color:var(--primary);}
+@media(max-width:1180px){.header-phones{display:none;}}
+.icon-btn{
+  width:38px; height:38px; border-radius:50%; border:1px solid var(--border); background:var(--glass);
+  display:flex; align-items:center; justify-content:center; color:var(--text); transition:all .25s ease;
+}
+.icon-btn:hover{border-color:var(--primary); color:var(--primary);}
+.burger{display:none;}
+
+@media(max-width:960px){
+  nav.links{position:fixed; top:0; right:-100%; height:100vh; width:min(320px,85vw); background:var(--surface); flex-direction:column;
+    justify-content:flex-start; padding:100px 26px 26px; gap:6px; transition:right .4s cubic-bezier(.2,.8,.2,1); box-shadow:-20px 0 50px rgba(0,0,0,.15);}
+  nav.links.open{right:0;}
+  nav.links a{width:100%; padding:14px 16px;}
+  .burger{display:flex; width:38px; height:38px; align-items:center; justify-content:center; border-radius:10px; border:1px solid var(--border); background:var(--glass);}
+  .nav-scrim{position:fixed; inset:0; background:rgba(0,0,0,.4); opacity:0; pointer-events:none; transition:opacity .3s ease; z-index:998;}
+  .nav-scrim.show{opacity:1; pointer-events:auto;}
+}
+
+/* ============ HERO ============ */
+.hero{
+  position:relative; padding:180px 0 120px; overflow:hidden; background:
+    radial-gradient(1100px 550px at 85% -10%, rgba(0,198,255,0.16), transparent 60%),
+    radial-gradient(900px 500px at -10% 30%, rgba(0,86,210,0.12), transparent 60%), var(--bg);
+}
+.hero-grid{display:grid; grid-template-columns:1.05fr .95fr; gap:60px; align-items:center;}
+.hero h1{font-size:clamp(34px,5vw,58px); font-weight:800; line-height:1.08;}
+.hero h1 span{background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;}
+.hero p.lead{margin-top:22px; font-size:17.5px; max-width:540px;}
+.hero-cta{margin-top:34px; display:flex; gap:14px; flex-wrap:wrap;}
+.hero-stats{display:flex; gap:36px; margin-top:56px; flex-wrap:wrap;}
+.hero-stats .stat b{font-family:var(--font-head); font-size:30px; font-weight:800; color:var(--text); display:block;}
+.hero-stats .stat span{font-size:12.5px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
+
+/* orbit signature visual */
+.orbit-wrap{position:relative; width:100%; aspect-ratio:1/1; max-width:480px; margin:0 auto;}
+.orbit-ring{position:absolute; border:1px dashed var(--border); border-radius:50%; top:50%; left:50%; transform:translate(-50%,-50%);}
+.orbit-ring.r1{width:60%; height:60%; animation:spin 22s linear infinite;}
+.orbit-ring.r2{width:88%; height:88%; animation:spin 36s linear infinite reverse;}
+.orbit-ring.r3{width:100%; height:100%; border-style:solid; border-color:var(--border);}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.orbit-core{
+  position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:118px; height:118px; border-radius:50%;
+  background:var(--grad); display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 14px rgba(0,86,210,.08), 0 25px 60px -15px rgba(0,86,210,.6);
+  color:#fff; text-align:center; font-family:var(--font-head); font-weight:700; font-size:13px; z-index:3;
+}
+.orbit-node{
+  position:absolute; width:64px; height:64px; border-radius:16px; background:var(--surface); border:1px solid var(--border);
+  display:flex; align-items:center; justify-content:center; box-shadow:var(--shadow); color:var(--primary); z-index:2;
+}
+.orbit-node svg{width:26px; height:26px;}
+@media(max-width:960px){ .hero-grid{grid-template-columns:1fr;} .orbit-wrap{margin-top:20px;} }
+
+/* ============ ABOUT ============ */
+.about-grid{display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center;}
+.about-media{position:relative; border-radius:22px; overflow:hidden; background:var(--grad); aspect-ratio:4/3; box-shadow:var(--shadow);}
+.about-media .glass-card{
+  position:absolute; bottom:18px; left:18px; right:18px; background:var(--glass); backdrop-filter:blur(14px); border:1px solid var(--glass-border);
+  border-radius:14px; padding:16px 18px; color:#fff;
+}
+.vm-grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:26px;}
+.vm-card{background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow:var(--shadow);}
+.vm-card h4{font-size:15px; color:var(--primary); margin-bottom:8px;}
+.vm-card p{font-size:14px;}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;} .vm-grid{grid-template-columns:1fr;}}
+
+/* ============ CARDS / GRIDS ============ */
+.grid{display:grid; gap:22px;}
+.grid-3{grid-template-columns:repeat(3,1fr);}
+.grid-4{grid-template-columns:repeat(4,1fr);}
+@media(max-width:960px){.grid-3,.grid-4{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:620px){.grid-3,.grid-4{grid-template-columns:1fr;}}
+
+.tab-row{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:36px;}
+.tab-chip{
+  padding:9px 18px; border-radius:99px; font-size:13.5px; font-weight:600; border:1px solid var(--border); background:var(--surface);
+  color:var(--muted); transition:all .25s ease;
+}
+.tab-chip.active, .tab-chip:hover{background:var(--grad); color:#fff; border-color:transparent;}
+
+.card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:26px; transition:all .35s cubic-bezier(.2,.8,.2,1);
+  position:relative; overflow:hidden;
+}
+.card::before{content:""; position:absolute; inset:0; background:var(--grad); opacity:0; transition:opacity .35s ease;}
+.card:hover{transform:translateY(-6px); box-shadow:var(--shadow); border-color:transparent;}
+.card-icon{
+  width:52px; height:52px; border-radius:13px; background:rgba(0,86,210,.09); color:var(--primary); display:flex; align-items:center;
+  justify-content:center; margin-bottom:18px; transition:all .35s ease;
+}
+.card-icon svg{width:24px; height:24px;}
+.card:hover .card-icon{background:var(--grad); color:#fff; transform:scale(1.08) rotate(-6deg);}
+.card h3{font-size:17px; font-weight:700; margin-bottom:8px;}
+.card p{font-size:14px;}
+
+.reveal{opacity:0; transform:translateY(28px); transition:opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1);}
+.reveal.in{opacity:1; transform:none;}
+
+/* why choose / industries chips */
+.chip-grid{display:flex; flex-wrap:wrap; gap:14px;}
+.chip{
+  display:flex; align-items:center; gap:10px; padding:14px 20px; border-radius:14px; background:var(--surface);
+  border:1px solid var(--border); font-weight:600; font-size:14px; transition:all .3s ease;
+}
+.chip svg{width:18px; height:18px; color:var(--primary);}
+.chip:hover{border-color:var(--primary); transform:translateY(-3px); box-shadow:var(--shadow);}
+
+/* technologies */
+.tech-grid{display:grid; grid-template-columns:repeat(6,1fr); gap:14px;}
+@media(max-width:900px){.tech-grid{grid-template-columns:repeat(4,1fr);}}
+@media(max-width:560px){.tech-grid{grid-template-columns:repeat(3,1fr);}}
+.tech-pill{
+  background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:16px 8px; text-align:center; font-size:12.5px;
+  font-weight:600; transition:all .3s ease;
+}
+.tech-pill:hover{transform:translateY(-4px); border-color:var(--primary); color:var(--primary);}
+
+/* projects */
+.proj-card{border-radius:18px; overflow:hidden; background:var(--surface); border:1px solid var(--border); transition:all .35s ease;}
+.proj-card:hover{transform:translateY(-6px); box-shadow:var(--shadow);}
+.proj-media{aspect-ratio:16/10; background:var(--grad); position:relative; display:flex; align-items:center; justify-content:center;}
+.proj-media svg{width:50px; height:50px; color:#fff; opacity:.85;}
+.proj-body{padding:22px;}
+.proj-tags{display:flex; gap:8px; flex-wrap:wrap; margin-top:12px;}
+.tag{font-size:11px; font-weight:600; padding:4px 10px; border-radius:99px; background:rgba(0,86,210,.09); color:var(--primary);}
+
+/* stats counters */
+.stats-bar{background:var(--secondary); border-radius:24px; padding:56px 40px; display:grid; grid-template-columns:repeat(4,1fr); gap:20px; color:#fff;}
+.stats-bar .stat{text-align:center;}
+.stats-bar .stat b{font-family:var(--font-head); font-size:38px; font-weight:800; display:block; background:linear-gradient(135deg,#fff,var(--accent)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+.stats-bar .stat span{font-size:12.5px; color:#9fb0c3; text-transform:uppercase; letter-spacing:.08em;}
+@media(max-width:760px){.stats-bar{grid-template-columns:repeat(2,1fr);}}
+
+/* testimonials */
+.testi-track{overflow:hidden; position:relative;}
+.testi-slide{display:none; animation:fade .5s ease;}
+.testi-slide.active{display:block;}
+@keyframes fade{from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:none;}}
+.testi-card{max-width:720px; margin:0 auto; text-align:center; padding:40px;}
+.testi-card p{font-size:19px; color:var(--text); font-style:italic; line-height:1.6;}
+.testi-who{margin-top:22px; display:flex; align-items:center; justify-content:center; gap:12px;}
+.testi-avatar{width:46px; height:46px; border-radius:50%; background:var(--grad); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700;}
+.testi-dots{display:flex; justify-content:center; gap:8px; margin-top:20px;}
+.testi-dots button{width:9px; height:9px; border-radius:50%; border:none; background:var(--border);}
+.testi-dots button.active{background:var(--primary); width:22px; border-radius:6px; transition:all .3s ease;}
+
+/* faq */
+.faq-item{border-bottom:1px solid var(--border); padding:22px 0;}
+.faq-q{display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600; font-size:15.5px; gap:20px;}
+.faq-q svg{width:18px; height:18px; flex-shrink:0; transition:transform .3s ease; color:var(--primary);}
+.faq-item.open .faq-q svg{transform:rotate(45deg);}
+.faq-a{max-height:0; overflow:hidden; transition:max-height .35s ease;}
+.faq-item.open .faq-a{max-height:300px; padding-top:14px;}
+.faq-a p{font-size:14.5px;}
+
+/* forms */
+.form-card{background:var(--surface); border:1px solid var(--border); border-radius:22px; padding:36px; box-shadow:var(--shadow);}
+.form-row{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+@media(max-width:600px){.form-row{grid-template-columns:1fr;}}
+.field{margin-bottom:16px;}
+.field label{display:block; font-size:12.5px; font-weight:600; margin-bottom:7px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em;}
+.field input, .field select, .field textarea{
+  width:100%; padding:13px 15px; border-radius:11px; border:1px solid var(--border); background:var(--bg); color:var(--text);
+  font-family:inherit; font-size:14.5px; transition:all .25s ease;
+}
+.field input:focus, .field select:focus, .field textarea:focus{outline:none; border-color:var(--primary); box-shadow:0 0 0 4px rgba(0,86,210,.12);}
+.field textarea{resize:vertical; min-height:110px;}
+.form-msg{margin-top:14px; font-size:14px; font-weight:600;}
+.form-msg.ok{color:#0a9d5c;}
+.form-msg.err{color:#d33;}
+
+/* contact page layout */
+.contact-grid{display:grid; grid-template-columns:1fr 1.15fr; gap:40px;}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr;}}
+.contact-info-item{display:flex; gap:16px; padding:18px 0; border-bottom:1px solid var(--border);}
+.contact-info-item .ico{width:44px; height:44px; border-radius:12px; background:rgba(0,86,210,.09); color:var(--primary); display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+.contact-info-item .ico svg{width:20px; height:20px;}
+.map-embed{border-radius:18px; overflow:hidden; border:1px solid var(--border); margin-top:24px; height:260px;}
+.map-embed iframe{width:100%; height:100%; border:0;}
+
+/* blog / portfolio / careers */
+.blog-card{background:var(--surface); border:1px solid var(--border); border-radius:18px; overflow:hidden; transition:all .3s ease;}
+.blog-card:hover{transform:translateY(-6px); box-shadow:var(--shadow);}
+.blog-media{aspect-ratio:16/9; background:var(--grad); opacity:.9;}
+.blog-body{padding:22px;}
+.blog-cat{font-size:11px; font-weight:700; color:var(--primary); text-transform:uppercase; letter-spacing:.06em;}
+.blog-body h3{margin-top:10px; font-size:16.5px;}
+.blog-body .meta{font-size:12.5px; margin-top:12px; color:var(--muted);}
+
+.job-card{background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap;}
+.job-card h4{font-size:16px;}
+.job-card .meta{font-size:13px; color:var(--muted); margin-top:6px;}
+.job-tags{display:flex; gap:8px; margin-top:8px; flex-wrap:wrap;}
+
+/* footer */
+footer{background:var(--secondary); color:#c9d5e3; padding:80px 0 30px; margin-top:60px;}
+.footer-grid{display:grid; grid-template-columns:2fr 1fr 1fr 1.3fr; gap:40px;}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;}}
+footer h4{color:#fff; font-size:14px; margin-bottom:18px;}
+footer a{display:block; color:#9fb0c3; font-size:14px; padding:6px 0; transition:color .2s ease;}
+footer a:hover{color:var(--accent);}
+.footer-social{display:flex; gap:10px; margin-top:16px;}
+.footer-social a{width:38px; height:38px; border-radius:50%; border:1px solid rgba(255,255,255,.15); display:flex; align-items:center; justify-content:center; padding:0;}
+.footer-social a:hover{background:var(--grad); border-color:transparent;}
+.footer-social svg{width:16px; height:16px;}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1); margin-top:50px; padding-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:13px; color:#7f93a9;}
+
+/* floaters */
+.whatsapp-float{
+  position:fixed; bottom:26px; left:26px; z-index:900; width:58px; height:58px; border-radius:50%; background:#25D366; color:#fff;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 12px 30px -8px rgba(37,211,102,.7); animation:pulse 2.4s infinite;
+}
+.whatsapp-float svg{width:28px; height:28px;}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55);}70%{box-shadow:0 0 0 16px rgba(37,211,102,0);}100%{box-shadow:0 0 0 0 rgba(37,211,102,0);}}
+.back-top{
+  position:fixed; bottom:26px; right:26px; z-index:900; width:48px; height:48px; border-radius:50%; background:var(--grad); color:#fff;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 10px 25px -8px rgba(0,86,210,.6); opacity:0; pointer-events:none; transition:all .3s ease;
+}
+.back-top.show{opacity:1; pointer-events:auto; transform:translateY(0);}
+.back-top svg{width:18px; height:18px;}
+
+/* page transitions */
+.page{display:none;}
+.page.active{display:block; animation:pagein .5s ease;}
+@keyframes pagein{from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:none;}}
+
+.page-hero{padding:150px 0 70px; text-align:center; background:radial-gradient(900px 400px at 50% -20%, rgba(0,86,210,.12), transparent 60%);}
+.page-hero .eyebrow{margin-bottom:16px;}
+.page-hero h1{font-size:clamp(30px,4.5vw,46px);}
+.page-hero p{max-width:600px; margin:16px auto 0;}
+
+/* admin */
+.admin-lock{min-height:70vh; display:flex; align-items:center; justify-content:center; padding:160px 20px 60px;}
+.admin-lock .form-card{max-width:380px; width:100%;}
+.admin-shell{padding:150px 0 80px;}
+.admin-tabs{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:30px; border-bottom:1px solid var(--border); padding-bottom:20px;}
+.admin-panel{display:none;}
+.admin-panel.active{display:block;}
+.admin-list-item{display:flex; justify-content:space-between; align-items:center; gap:14px; padding:16px 18px; border:1px solid var(--border); border-radius:12px; margin-bottom:10px; background:var(--surface);}
+.admin-list-item .meta-txt{font-size:13px; color:var(--muted); margin-top:4px;}
+.mini-btn{padding:7px 14px; border-radius:8px; font-size:12.5px; font-weight:600; border:1px solid var(--border); background:var(--bg); color:var(--text);}
+.mini-btn.danger{color:#d33; border-color:rgba(211,51,51,.3);}
+.mini-btn.primary{background:var(--grad); color:#fff; border-color:transparent;}
+.empty-note{color:var(--muted); font-size:14px; text-align:center; padding:30px 0;}
+.admin-note{background:rgba(0,86,210,.08); border:1px solid rgba(0,86,210,.2); border-radius:12px; padding:14px 18px; font-size:13.5px; color:var(--muted); margin-bottom:24px;}
+
+.dark-toggle svg{transition:all .3s ease;}
+</style>
+</head>
+<body data-theme="light">
+
+<div class="nav-scrim" id="navScrim"></div>
+
+<!-- ============ HEADER ============ -->
+<header id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="#/home" class="logo" data-link="home">
+      <span class="logo-mark">SI</span>
+      <span>SASC Infra Solution
+        <small>ERP · SAP B1 · Digital Transformation</small>
+      </span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#/home" data-link="home">Home</a>
+      <a href="#/about" data-link="about">About</a>
+      <a href="#/services" data-link="services">Services</a>
+      <a href="#/portfolio" data-link="portfolio">Portfolio</a>
+      <a href="#/blog" data-link="blog">Blog</a>
+      <a href="#/careers" data-link="careers">Careers</a>
+      <a href="#/contact" data-link="contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn dark-toggle" id="darkToggle" aria-label="Toggle dark mode"></button>
+      <a href="#/contact" class="btn btn-primary btn-sm" style="display:none" id="navCta">Get Free Consultation</a>
+      <button class="burger" id="burgerBtn" aria-label="Menu"></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HOME ============ -->
+<main id="app">
+<section class="page" id="page-home">
+
+  <div class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">● ERP &amp; Digital Transformation Partner</span>
+        <h1 style="margin-top:18px;">Transforming Businesses Through <span>Technology</span></h1>
+        <p class="lead">SASC Infra Solution Private Limited delivers ERP consulting, SAP Business One implementation, custom software development, reporting solutions, business intelligence dashboards, database management, and complete IT support for growing businesses.</p>
+        <div class="hero-cta">
+          <a href="#/contact" class="btn btn-primary">Get Free Consultation</a>
+          <a href="#/contact" class="btn btn-ghost">Contact Us</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b class="counter" data-target="12">0</b><span>Years Combined Experience</span></div>
+          <div class="stat"><b class="counter" data-target="6">0</b><span>Industries Served</span></div>
+          <div class="stat"><b class="counter" data-target="3">0</b><span>ERP Solutions Delivered</span></div>
+          <div class="stat"><b class="counter" data-target="24">0</b><span>Hr Support</span></div>
+        </div>
+      </div>
+      <div class="orbit-wrap reveal">
+        <div class="orbit-ring r3"></div>
+        <div class="orbit-ring r2"></div>
+        <div class="orbit-ring r1"></div>
+        <div class="orbit-core">Digital<br>Transformation</div>
+        <div class="orbit-node" style="top:2%; left:50%; transform:translate(-50%,0);" data-ic="erp"></div>
+        <div class="orbit-node" style="top:50%; right:0%; transform:translate(0,-50%);" data-ic="cloud"></div>
+        <div class="orbit-node" style="bottom:2%; left:50%; transform:translate(-50%,0);" data-ic="chart"></div>
+        <div class="orbit-node" style="top:50%; left:0%; transform:translate(0,-50%);" data-ic="db"></div>
+        <div class="orbit-node" style="top:16%; left:16%;" data-ic="ai"></div>
+        <div class="orbit-node" style="bottom:16%; right:16%;" data-ic="dashboard"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="section" id="homeAbout">
+    <div class="container about-grid">
+      <div class="reveal">
+        <div class="about-media">
+          <div class="glass-card">
+            <b style="font-family:var(--font-head); font-size:15px;">Since Day One</b>
+            <p style="color:#e6f0ff; font-size:13.5px; margin-top:4px;">Focused purely on ERP, SAP Business One and enterprise-grade business software.</p>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Who We Are</span>
+        <h2 style="margin-top:14px; font-size:32px;">Your growth partner for enterprise technology</h2>
+        <p style="margin-top:16px;">SASC Infra Solution Private Limited is a technology-driven company specializing in ERP consulting, SAP Business One solutions, enterprise software development, business intelligence, reporting, dashboard development, database management, cloud solutions, and digital transformation services.</p>
+        <p style="margin-top:12px;">Our mission is to simplify business operations by providing innovative, reliable, and scalable technology solutions that improve productivity and business growth.</p>
+        <a href="#/about" class="btn btn-ghost" style="margin-top:22px;">More About Us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section" style="background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+      <div class="section-head split-head reveal">
+        <div>
+          <span class="eyebrow">What We Do</span>
+          <h2>Our Core Services</h2>
+        </div>
+        <a href="#/services" class="btn btn-ghost">View All Services →</a>
+      </div>
+      <div class="grid grid-4" id="homeServiceCards"></div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why SASC Infra</span>
+        <h2>Built on trust, delivered with precision</h2>
+      </div>
+      <div class="chip-grid reveal" id="whyChooseGrid"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="stats-bar reveal">
+        <div class="stat"><b class="counter" data-target="3">0</b><span>ERP Solutions Delivered</span></div>
+        <div class="stat"><b class="counter" data-target="6">0</b><span>Industries Served</span></div>
+        <div class="stat"><b class="counter" data-target="12">0</b><span>Years Combined Experience</span></div>
+        <div class="stat"><b class="counter" data-target="60">0</b><span>SAP B1 Deployments</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="section" style="background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Domains</span>
+        <h2>Industries We Serve</h2>
+        <p>Deep, hands-on experience delivering ERP and reporting solutions across a wide range of sectors.</p>
+      </div>
+      <div class="chip-grid reveal" id="industriesGrid"></div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGIES -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Stack</span>
+        <h2>Technologies We Work With</h2>
+      </div>
+      <div class="tech-grid reveal" id="techGrid"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS PREVIEW -->
+  <section class="section" style="background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+      <div class="section-head split-head reveal">
+        <div><span class="eyebrow">Selected Work</span><h2>Projects</h2></div>
+        <a href="#/portfolio" class="btn btn-ghost">View Portfolio →</a>
+      </div>
+      <div class="grid grid-3" id="homeProjectCards"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal" style="text-align:center; margin:0 auto 20px; max-width:600px;">
+        <span class="eyebrow">Client Voices</span>
+        <h2>What Our Clients Say</h2>
+      </div>
+      <div class="testi-track reveal" id="testiTrack"></div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="background:var(--surface); border-top:1px solid var(--border);">
+    <div class="container" style="max-width:820px;">
+      <div class="section-head reveal" style="text-align:center; margin:0 auto 20px;">
+        <span class="eyebrow">FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div id="faqList" class="reveal"></div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section" style="padding-top:60px;">
+    <div class="container">
+      <div class="reveal" style="background:var(--secondary); border-radius:26px; padding:64px 40px; text-align:center; position:relative; overflow:hidden;">
+        <div style="position:absolute; inset:0; background:radial-gradient(600px 300px at 20% 0%, rgba(0,198,255,.18), transparent 60%);"></div>
+        <div style="position:relative;">
+          <h2 style="color:#fff; font-size:clamp(24px,3.4vw,34px);">Ready to modernize your business operations?</h2>
+          <p style="color:#9fb0c3; margin-top:14px; max-width:520px; margin-left:auto; margin-right:auto;">Talk to our ERP specialists and get a free consultation tailored to your industry.</p>
+          <div style="margin-top:26px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+            <a href="#/contact" class="btn btn-primary">Get Free Consultation</a>
+            <a href="tel:+919786927428" class="btn btn-ghost" style="background:rgba(255,255,255,.08); color:#fff; border-color:rgba(255,255,255,.2);">Call +91 97869 27428</a>
+            <a href="tel:+919361353635" class="btn btn-ghost" style="background:rgba(255,255,255,.08); color:#fff; border-color:rgba(255,255,255,.2);">Call +91 93613 53635</a>
+            <a href="tel:+916381654881" class="btn btn-ghost" style="background:rgba(255,255,255,.08); color:#fff; border-color:rgba(255,255,255,.2);">Call +91 63816 54881</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ ABOUT PAGE ============ -->
+<section class="page" id="page-about">
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">About SASC Infra Solution</span>
+      <h1>Engineering clarity into complex business operations</h1>
+      <p>A technology-driven partner for ERP, SAP Business One and enterprise software.</p>
+    </div>
+  </div>
+  <section class="section" style="padding-top:40px;">
+    <div class="container about-grid">
+      <div class="reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2 style="margin-top:14px; font-size:30px;">Simplifying business, one system at a time</h2>
+        <p style="margin-top:16px;">SASC Infra Solution Private Limited is a technology-driven company specializing in ERP consulting, SAP Business One solutions, enterprise software development, business intelligence, reporting, dashboard development, database management, cloud solutions, and digital transformation services.</p>
+        <p style="margin-top:12px;">With strong expertise in SAP Business One, ERP consulting, SQL database management, reporting, implementation, customization, user training, and support, we help organizations streamline their business processes.</p>
+        <div class="vm-grid">
+          <div class="vm-card"><h4>Our Vision</h4><p>To become one of India's most trusted ERP and Technology Consulting companies by delivering innovative and high-quality business solutions.</p></div>
+          <div class="vm-card"><h4>Our Mission</h4><p>Deliver reliable technology solutions with customer satisfaction as our highest priority.</p></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="about-media">
+          <div class="glass-card">
+            <b style="font-family:var(--font-head); font-size:15px;">BTM Layout 2nd Stage, Bangalore</b>
+            <p style="color:#e6f0ff; font-size:13.5px; margin-top:4px;">Serving clients across Karnataka and India.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="background:var(--surface); border-top:1px solid var(--border);">
+    <div class="container">
+      <div class="section-head reveal"><span class="eyebrow">Why SASC Infra</span><h2>Why Choose Us</h2></div>
+      <div class="chip-grid reveal" id="whyChooseGrid2"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ SERVICES PAGE ============ -->
+<section class="page" id="page-services">
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Our Services</span>
+      <h1>End-to-end ERP &amp; software services</h1>
+      <p>From SAP Business One implementation to custom dashboards, database management and full IT support — everything under one roof.</p>
+    </div>
+  </div>
+  <section class="section" style="padding-top:20px;">
+    <div class="container">
+      <div class="tab-row" id="serviceTabs"></div>
+      <div class="grid grid-3" id="serviceCards"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ PORTFOLIO PAGE ============ -->
+<section class="page" id="page-portfolio">
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Portfolio</span>
+      <h1>Projects that moved the needle</h1>
+      <p>A selection of ERP, reporting and automation projects delivered for our clients.</p>
+    </div>
+  </div>
+  <section class="section" style="padding-top:20px;">
+    <div class="container">
+      <div class="grid grid-3" id="portfolioCards"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ BLOG PAGE ============ -->
+<section class="page" id="page-blog">
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Insights</span>
+      <h1>ERP, SAP B1 &amp; Data Blog</h1>
+      <p>Practical articles on ERP, SAP Business One, databases, Power BI and web development.</p>
+    </div>
+  </div>
+  <section class="section" style="padding-top:20px;">
+    <div class="container">
+      <div class="grid grid-3" id="blogCards"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ CAREERS PAGE ============ -->
+<section class="page" id="page-careers">
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Careers</span>
+      <h1>Build your career with us</h1>
+      <p>Join a team solving real ERP, data and software challenges for growing businesses.</p>
+    </div>
+  </div>
+  <section class="section" style="padding-top:20px;">
+    <div class="container" style="max-width:900px;">
+      <div id="jobList" style="display:grid; gap:14px; margin-bottom:60px;"></div>
+      <div class="form-card reveal">
+        <h3 style="font-size:20px; margin-bottom:6px;">Apply Online</h3>
+        <p style="margin-bottom:20px; font-size:14px;">Email your resume to <strong>careers@sascinfra.com</strong> after submitting this form, quoting your application ID.</p>
+        <form id="careerForm">
+          <div class="form-row">
+            <div class="field"><label>Full Name</label><input required name="name" placeholder="Your full name"></div>
+            <div class="field"><label>Email</label><input required type="email" name="email" placeholder="you@email.com"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label>Phone</label><input required name="phone" placeholder="+91"></div>
+            <div class="field"><label>Position Applying For</label>
+              <select name="position" id="careerPositionSelect"></select>
+            </div>
+          </div>
+          <div class="field"><label>Cover Note / Experience Summary</label><textarea name="message" placeholder="Tell us about your experience..."></textarea></div>
+          <button class="btn btn-primary" type="submit">Submit Application</button>
+          <div class="form-msg" id="careerMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ CONTACT PAGE ============ -->
+<section class="page" id="page-contact">
+  <div class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Let's talk about your business goals</h1>
+      <p>Reach out for a free consultation on ERP, SAP Business One, dashboards or custom software.</p>
+    </div>
+  </div>
+  <section class="section" style="padding-top:20px;">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <div class="contact-info-item">
+          <div class="ico" data-ic="pin"></div>
+          <div><h4 style="font-size:15px;">Address</h4><p style="font-size:14px; margin-top:4px;">BTM Layout 2nd Stage, Bangalore, Karnataka, India</p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ico" data-ic="phone"></div>
+          <div><h4 style="font-size:15px;">Phone</h4><p style="font-size:14px; margin-top:4px;">
+            <a href="tel:+919786927428">+91 97869 27428</a><br>
+            <a href="tel:+919361353635">+91 93613 53635</a><br>
+            <a href="tel:+916381654881">+91 63816 54881</a>
+          </p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ico" data-ic="mail"></div>
+          <div><h4 style="font-size:15px;">Email</h4><p style="font-size:14px; margin-top:4px;">sascinfrasolutions@gmail.com</p></div>
+        </div>
+        <div class="map-embed">
+          <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=BTM%20Layout%202nd%20Stage%2C%20Bangalore%2C%20Karnataka&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+      </div>
+      <div class="form-card reveal">
+        <h3 style="font-size:20px; margin-bottom:20px;">Send Us a Message</h3>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="field"><label>Name</label><input required name="name" placeholder="Your full name"></div>
+            <div class="field"><label>Company</label><input name="company" placeholder="Company name"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label>Email</label><input required type="email" name="email" placeholder="you@email.com"></div>
+            <div class="field"><label>Phone</label><input required name="phone" placeholder="+91"></div>
+          </div>
+          <div class="field"><label>Service Required</label>
+            <select name="service">
+              <option>ERP Consulting</option>
+              <option>SAP Business One Implementation</option>
+              <option>SAP Business One Support</option>
+              <option>Business Intelligence / Power BI</option>
+              <option>Website / Web Application Development</option>
+              <option>Database Management</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field"><label>Message</label><textarea required name="message" placeholder="Tell us about your requirement..."></textarea></div>
+          <button class="btn btn-primary" type="submit" style="width:100%;">Send Message</button>
+          <div class="form-msg" id="contactMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ ADMIN PAGE ============ -->
+<section class="page" id="page-admin">
+  <div class="admin-lock" id="adminLock">
+    <div class="form-card reveal">
+      <h3 style="font-size:20px; margin-bottom:6px;">Admin Login</h3>
+      <p style="font-size:13.5px; margin-bottom:20px;">Demo access code: <strong>sasc-admin</strong></p>
+      <div class="field"><label>Access Code</label><input type="password" id="adminPass" placeholder="Enter access code"></div>
+      <button class="btn btn-primary" style="width:100%;" id="adminLoginBtn">Login</button>
+      <div class="form-msg err" id="adminLoginMsg"></div>
+    </div>
+  </div>
+  <div class="admin-shell" id="adminShell" style="display:none;">
+    <div class="container">
+      <div class="admin-note">This is a lightweight content-management demo. It lets you manage the text shown on the public site (services, projects, testimonials, blog, careers) and view form submissions. When hosted on GitHub Pages, this data is saved in <strong>this browser's local storage only</strong> — edits you make here won't be visible to other visitors, and clearing browser data will erase them. It is <strong>not</strong> a production backend — a real multi-user CMS needs a hosted database, authentication and file storage for resumes/images.</div>
+      <div class="split-head" style="margin-bottom:20px;">
+        <h2 style="font-size:26px;">Admin Dashboard</h2>
+        <button class="btn btn-ghost btn-sm" id="adminLogoutBtn">Log Out</button>
+      </div>
+      <div class="admin-tabs" id="adminTabs"></div>
+      <div id="adminPanels"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <div class="logo" style="color:#fff;">
+        <span class="logo-mark">SI</span>
+        <span>SASC Infra Solution<small style="color:#9fb0c3;">Private Limited</small></span>
+      </div>
+      <p style="margin-top:16px; max-width:320px; color:#9fb0c3; font-size:13.5px;">Your Trusted Partner for ERP, Business Automation &amp; Digital Transformation.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn" data-ic="linkedin"></a>
+        <a href="#" aria-label="Twitter" data-ic="twitter"></a>
+        <a href="#" aria-label="Facebook" data-ic="facebook"></a>
+        <a href="#" aria-label="Instagram" data-ic="instagram"></a>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#/services">Services</a>
+      <a href="#/about">About</a>
+      <a href="#/portfolio">Projects</a>
+      <a href="#/contact">Contact</a>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="#/blog">Blog</a>
+      <a href="#/careers">Careers</a>
+      <a href="#/admin">Admin</a>
+    </div>
+    <div>
+      <h4>Head Office</h4>
+      <a style="padding:6px 0;">BTM Layout 2nd Stage, Bangalore, Karnataka, India</a>
+      <a href="tel:+919786927428">+91 97869 27428</a>
+      <a href="tel:+919361353635">+91 93613 53635</a>
+      <a href="tel:+916381654881">+91 63816 54881</a>
+      <a href="mailto:sascinfrasolutions@gmail.com">sascinfrasolutions@gmail.com</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 SASC Infra Solution Private Limited. All Rights Reserved.</span>
+    <span>Designed &amp; Built for Enterprise Growth</span>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/919786927428" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Call us: +91 97869 27428 / +91 93613 53635 / +91 63816 54881" data-ic="whatsapp"></a>
+<button class="back-top" id="backTop" aria-label="Back to top" data-ic="up"></button>
+
+<script>
+/* ============================================================
+   ICONS — small inline SVG library (stroke based, 24x24)
+   ============================================================ */
+const ICONS = {
+  erp:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M7 20h10M12 16v4"/></svg>`,
+  cloud:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 18a4 4 0 010-8 5 5 0 019.6-1.5A4.5 4.5 0 0118 18H7z"/></svg>`,
+  chart:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M11 20V4M18 20v-7"/></svg>`,
+  db:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>`,
+  ai:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>`,
+  dashboard:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>`,
+  gear:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.34 1.87l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.7 1.7 0 00-1.87-.34 1.7 1.7 0 00-1 1.55V21a2 2 0 01-4 0v-.09a1.7 1.7 0 00-1-1.56 1.7 1.7 0 00-1.87.34l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.7 1.7 0 004.6 15a1.7 1.7 0 00-1.55-1H3a2 2 0 010-4h.09A1.7 1.7 0 004.6 9a1.7 1.7 0 00-.34-1.87l-.06-.06a2 2 0 112.83-2.83l.06.06A1.7 1.7 0 009 4.6a1.7 1.7 0 001-1.55V3a2 2 0 014 0v.09a1.7 1.7 0 001 1.55 1.7 1.7 0 001.87-.34l.06-.06a2 2 0 112.83 2.83l-.06.06A1.7 1.7 0 0019 9c.14.36.44.65 1.55 1H21a2 2 0 010 4h-.09a1.7 1.7 0 00-1.51 1z"/></svg>`,
+  code:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18l-6-6 6-6M15 6l6 6-6 6"/></svg>`,
+  shield:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-4z"/></svg>`,
+  users:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c0-3.9 3.1-7 7-7s7 3.1 7 7M16 5.5a3.5 3.5 0 010 7M22 20c0-3-1.8-5.5-4.5-6.5"/></svg>`,
+  clock:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>`,
+  tag:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.6 12.6L12 21.2 2.8 12 11.4 3.4a2 2 0 011.4-.6H19a2 2 0 012 2v5.9a2 2 0 01-.4 1.3z"/><circle cx="16" cy="8" r="1.5"/></svg>`,
+  check:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>`,
+  train:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="12" rx="2"/><path d="M8 19l-2 2M16 19l2 2M7 11h10"/></svg>`,
+  server:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><circle cx="7" cy="7" r=".6" fill="currentColor"/><circle cx="7" cy="17" r=".6" fill="currentColor"/></svg>`,
+  link:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 15l6-6M8 17l-2 2a4 4 0 01-5.7-5.7l3-3M16 7l2-2a4 4 0 015.7 5.7l-3 3"/></svg>`,
+  layers:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l9 5-9 5-9-5 9-5zM3 12l9 5 9-5M3 17l9 5 9-5"/></svg>`,
+  globe:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 4 6 4 9s-1.5 6.3-4 9c-2.5-2.7-4-6-4-9s1.5-6.3 4-9z"/></svg>`,
+  factory:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V10l6 4v-4l6 4V6l6 5v10H3z"/></svg>`,
+  box:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v9l9 5 9-5V8M12 13v9"/></svg>`,
+  pin:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>`,
+  phone:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5c0 8.3 6.7 15 15 15l3-4-6-3-2 2c-2.5-1.2-4.8-3.5-6-6l2-2-3-6z"/></svg>`,
+  mail:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg>`,
+  whatsapp:`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.3-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.4 0-.5C11.7 9.9 11.2 8.6 11 8c-.2-.6-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s1 2.5 1.1 2.7c.1.2 1.9 2.9 4.6 4.1.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2z" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>`,
+  up:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>`,
+  sun:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8"/></svg>`,
+  moon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>`,
+  menu:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>`,
+  close:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>`,
+  linkedin:`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.9 8.65 22 11 22 14.5V21h-4v-6c0-1.4 0-3.3-2-3.3s-2.3 1.6-2.3 3.2V21H9z"/></svg>`,
+  twitter:`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.9c-.7.3-1.5.6-2.3.7a4 4 0 001.7-2.2c-.8.5-1.7.8-2.6 1a4 4 0 00-6.9 3.6A11.4 11.4 0 013 4.6a4 4 0 001.2 5.3 4 4 0 01-1.8-.5v.1a4 4 0 003.2 3.9 4 4 0 01-1.8.1 4 4 0 003.7 2.8A8 8 0 012 18.4a11.3 11.3 0 006.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>`,
+  facebook:`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.6-1.5H17V3.6C16.6 3.5 15.5 3.4 14.3 3.4c-2.5 0-4.2 1.5-4.2 4.3v2.2H7.4V13H10v8z"/></svg>`,
+  instagram:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>`,
+};
+document.querySelectorAll('[data-ic]').forEach(el=>{ if(ICONS[el.dataset.ic]) el.innerHTML = ICONS[el.dataset.ic]; });
+function ic(name){ return ICONS[name] || ICONS.gear; }
+
+/* ============================================================
+   DEFAULT DATA
+   ============================================================ */
+const DEFAULTS = {
+  services: [
+    {cat:'ERP & SAP', icon:'erp', title:'ERP Consulting', desc:'Strategic guidance to choose, plan and roll out the right ERP for your business.'},
+    {cat:'ERP & SAP', icon:'erp', title:'SAP Business One Implementation', desc:'End-to-end SAP B1 rollout tailored to your processes and industry.'},
+    {cat:'ERP & SAP', icon:'gear', title:'SAP Business One Support', desc:'Ongoing support, troubleshooting and health checks for your SAP B1 environment.'},
+    {cat:'ERP & SAP', icon:'gear', title:'ERP Customization', desc:'Custom fields, workflows and forms built around how your team actually works.'},
+    {cat:'ERP & SAP', icon:'check', title:'ERP Health Check', desc:'A full diagnostic of your ERP setup with a prioritized improvement plan.'},
+    {cat:'Data & BI', icon:'db', title:'Database Management', desc:'Design, tuning and maintenance for reliable, high-performing databases.'},
+    {cat:'Data & BI', icon:'code', title:'SQL Query Development', desc:'Optimized queries and stored procedures for reporting and automation.'},
+    {cat:'Data & BI', icon:'chart', title:'Crystal Reports', desc:'Pixel-perfect operational and financial reports built in Crystal Reports.'},
+    {cat:'Data & BI', icon:'dashboard', title:'Power BI Dashboards', desc:'Interactive dashboards that turn raw data into decisions.'},
+    {cat:'Data & BI', icon:'chart', title:'Business Intelligence', desc:'BI strategy and modelling to unify data across departments.'},
+    {cat:'Data & BI', icon:'dashboard', title:'Dashboard Development', desc:'Custom, role-based dashboards for sales, finance and operations.'},
+    {cat:'Data & BI', icon:'chart', title:'Report Automation', desc:'Scheduled, automated reporting that removes manual spreadsheet work.'},
+    {cat:'Software & Web', icon:'globe', title:'Website Development', desc:'Fast, modern, SEO-friendly corporate websites.'},
+    {cat:'Software & Web', icon:'code', title:'Web Application Development', desc:'Custom web apps that connect to your ERP and business systems.'},
+    {cat:'Software & Web', icon:'code', title:'Custom Software Development', desc:'Bespoke applications engineered around your exact requirements.'},
+    {cat:'Infrastructure', icon:'cloud', title:'Cloud Deployment', desc:'Secure, scalable deployment on Azure and AWS.'},
+    {cat:'Infrastructure', icon:'server', title:'Server Installation', desc:'On-premise and cloud server setup for ERP and business apps.'},
+    {cat:'Infrastructure', icon:'layers', title:'System Migration', desc:'Smooth migration between ERP versions or platforms.'},
+    {cat:'Infrastructure', icon:'db', title:'Data Migration', desc:'Clean, validated migration of master and transactional data.'},
+    {cat:'Infrastructure', icon:'shield', title:'IT Infrastructure Support', desc:'Reliable day-to-day support for your IT environment.'},
+    {cat:'Infrastructure', icon:'gear', title:'Remote Technical Support', desc:'Fast remote assistance for technical issues, wherever you are.'},
+    {cat:'Infrastructure', icon:'chart', title:'Performance Optimization', desc:'Tuning applications and databases for speed and reliability.'},
+    {cat:'Consulting', icon:'users', title:'Business Process Consulting', desc:'Mapping and improving processes before automating them.'},
+    {cat:'Consulting', icon:'train', title:'User Training', desc:'Hands-on training so your team gets the most from every system.'},
+    {cat:'Consulting', icon:'box', title:'Production Planning Solutions', desc:'Planning tools that keep manufacturing on schedule.'},
+    {cat:'Consulting', icon:'box', title:'Inventory Management Solutions', desc:'Real-time visibility and control over stock and warehouses.'},
+    {cat:'Consulting', icon:'chart', title:'Finance Module Support', desc:'Configuration and support for finance and accounting modules.'},
+    {cat:'Consulting', icon:'tag', title:'Sales & Purchase Module Support', desc:'Streamlined order-to-cash and procure-to-pay processes.'},
+    {cat:'Consulting', icon:'factory', title:'Manufacturing ERP Support', desc:'ERP support tuned for discrete and process manufacturing.'},
+    {cat:'Consulting', icon:'check', title:'Quality Management Solutions', desc:'Quality checks and traceability built into your workflows.'},
+    {cat:'Consulting', icon:'gear', title:'Business Automation', desc:'Automating repetitive tasks across departments.'},
+    {cat:'Consulting', icon:'globe', title:'Digital Transformation Consulting', desc:'A roadmap to modernize operations end-to-end.'},
+  ],
+  whyChoose: [
+    {icon:'users', title:'Professional Team'},
+    {icon:'shield', title:'Industry Expertise'},
+    {icon:'clock', title:'Fast Support'},
+    {icon:'tag', title:'Affordable Pricing'},
+    {icon:'check', title:'Reliable Solutions'},
+    {icon:'clock', title:'24/7 Support'},
+    {icon:'code', title:'Customized Development'},
+    {icon:'shield', title:'Secure Solutions'},
+    {icon:'users', title:'Customer Satisfaction'},
+  ],
+  industries: [
+    {icon:'factory', title:'Manufacturing'},{icon:'box', title:'Construction'},{icon:'factory', title:'Steel Industry'},
+    {icon:'box', title:'Food Industry'},{icon:'shield', title:'Healthcare'},{icon:'tag', title:'Retail'},
+    {icon:'box', title:'Wholesale'},{icon:'gear', title:'Automobile'},{icon:'globe', title:'Trading'},
+    {icon:'link', title:'Logistics'},{icon:'shield', title:'Pharmaceutical'},{icon:'layers', title:'Textile'},{icon:'train', title:'Education'},
+  ],
+  technologies: ['SAP Business One','SAP HANA','Microsoft SQL Server','SQL','Crystal Reports','Power BI','PostgreSQL','MySQL','Linux','Windows Server','Git'],
+  projects: [
+    {title:'SAP B1 ERP Implementation', tag1:'SAP Business One', tag2:'Manufacturing', desc:'Full-cycle SAP Business One rollout covering finance, inventory and production for a mid-size manufacturer.'},
+    {title:'Executive BI Dashboard Suite', tag1:'Power BI', tag2:'Business Intelligence', desc:'Real-time dashboards unifying sales, finance and inventory data for leadership reporting.'},
+    {title:'Production Planning System', tag1:'SAP B1', tag2:'Manufacturing', desc:'Custom production planning module reducing scheduling conflicts and downtime.'},
+    {title:'Inventory Automation Platform', tag1:'Automation', tag2:'Retail', desc:'Automated stock replenishment and warehouse tracking across multiple locations.'},
+    {title:'Automated Financial Reporting', tag1:'Crystal Reports', tag2:'Finance', desc:'Scheduled financial and statutory reports replacing manual spreadsheet reporting.'},
+    {title:'Sales Analytics Dashboard', tag1:'Power BI', tag2:'Sales', desc:'A sales performance dashboard with drill-down by region, product and rep.'},
+    {title:'Database Performance Optimization', tag1:'SQL Server', tag2:'Infrastructure', desc:'Query and index tuning that cut report generation time significantly.'},
+    {title:'Cloud Migration to Azure', tag1:'Azure', tag2:'Cloud', desc:'Migration of on-premise ERP infrastructure to a secure Azure environment.'},
+  ],
+  testimonials: [
+    {name:'R. Sharma', role:'Operations Head, Manufacturing', text:'SASC Infra Solution implemented SAP Business One for us with minimal disruption. Their team truly understands manufacturing processes.'},
+    {name:'A. Fernandes', role:'Finance Director, Retail Group', text:'The Power BI dashboards they built give us visibility we never had before. Reporting that used to take days now takes minutes.'},
+    {name:'K. Iyer', role:'MD, Logistics Company', text:'Responsive, knowledgeable and genuinely invested in our success. Their AMC support has been reliable since day one.'},
+  ],
+  faq: [
+    {q:'What is SAP Business One and is it right for my business?', a:'SAP Business One is an ERP solution built for small and mid-sized businesses, covering finance, sales, inventory, purchasing and manufacturing in one system. We assess your processes and company size before recommending it.'},
+    {q:'How long does an ERP implementation usually take?', a:'Timelines depend on scope and complexity, but a typical SAP Business One implementation for an SME runs a few months from discovery to go-live, including data migration and user training.'},
+    {q:'Can you build custom reports and dashboards for our existing ERP?', a:'Yes. We build Crystal Reports and Power BI dashboards that connect directly to your ERP database, tailored to the metrics each department needs.'},
+    {q:'Do you provide ongoing support after implementation?', a:'Yes, through remote technical support and scheduled ERP health checks.'},
+    {q:'Do you offer website and web application development too?', a:'Yes. Alongside ERP services, we build corporate websites and custom web applications, including ones that integrate with SAP Business One.'},
+    {q:'Which industries do you have experience in?', a:'We have delivered projects across manufacturing, construction, steel, food, healthcare, retail, wholesale, automobile, trading, logistics, pharmaceutical, textile and education sectors.'},
+  ],
+  blog: [
+    {cat:'SAP Business One', title:'5 Signs Your Business Has Outgrown Spreadsheets', excerpt:'How to know when it is time to move from spreadsheets to a proper ERP system.', date:'Jun 2026'},
+    {cat:'ERP', title:'A Practical Guide to ERP Implementation Planning', excerpt:'The key phases of a successful ERP rollout, from discovery to go-live.', date:'Jun 2026'},
+    {cat:'Power BI', title:'Turning SAP Business One Data into Power BI Dashboards', excerpt:'A step-by-step look at connecting SAP B1 data to Power BI for live reporting.', date:'May 2026'},
+    {cat:'Database', title:'Database Tips: Keeping Your ERP Database Healthy', excerpt:'Simple maintenance habits that prevent slow reports and downtime.', date:'May 2026'},
+    {cat:'Website Development', title:'Why Manufacturing Companies Need a Modern Website', excerpt:'The business case for investing in a professional web presence.', date:'Apr 2026'},
+    {cat:'SAP Business One', title:'Customization vs Configuration in SAP B1', excerpt:'Understanding the difference — and why it affects your upgrade path.', date:'Apr 2026'},
+  ],
+  careers: [
+    {title:'SAP Business One Consultant', type:'Full-time', location:'Bangalore'},
+    {title:'ERP Support Engineer', type:'Full-time', location:'Bangalore'},
+    {title:'Power BI Developer', type:'Full-time / Remote', location:'Bangalore'},
+    {title:'Full Stack Developer (React / Node.js)', type:'Full-time', location:'Bangalore'},
+  ],
+};
+
+/* ============================================================
+   STORAGE LAYER (shared across visitors of this artifact)
+   ============================================================ */
+const STORE_KEY = 'sasc-site-data-v1';
+let DATA = null;
+
+/* Storage shim: uses Claude's window.storage when this file is viewed as an
+   artifact, and falls back to the browser's localStorage when hosted normally
+   (e.g. on GitHub Pages). NOTE: localStorage is per-browser/per-device only —
+   admin edits made on one computer will not be visible to other visitors.
+   For a shared, multi-user CMS you would need a real backend + database. */
+const storage = {
+  async get(key, shared){
+    if(window.storage){ try{ return await window.storage.get(key, shared); }catch(e){} }
+    try{ const v = localStorage.getItem(key); return v ? {key, value:v, shared} : null; }catch(e){ return null; }
+  },
+  async set(key, value, shared){
+    if(window.storage){ try{ return await window.storage.set(key, value, shared); }catch(e){} }
+    try{ localStorage.setItem(key, value); return {key, value, shared}; }catch(e){ return null; }
+  }
+};
+
+async function loadData(){
+  try{
+    const res = await storage.get(STORE_KEY, true);
+    DATA = res && res.value ? JSON.parse(res.value) : JSON.parse(JSON.stringify(DEFAULTS));
+  }catch(e){
+    DATA = JSON.parse(JSON.stringify(DEFAULTS));
+  }
+  if(!DATA.submissions) DATA.submissions = [];
+  if(!DATA.applications) DATA.applications = [];
+}
+async function saveData(){
+  try{ await storage.set(STORE_KEY, JSON.stringify(DATA), true); }catch(e){ console.error('storage save failed', e); }
+}
+
+/* ============================================================
+   RENDERERS
+   ============================================================ */
+function renderServiceCard(s){
+  return `<div class="card reveal"><div class="card-icon">${ic(s.icon)}</div><h3>${s.title}</h3><p>${s.desc}</p></div>`;
+}
+function renderHome(){
+  document.getElementById('homeServiceCards').innerHTML = DATA.services.slice(0,8).map(renderServiceCard).join('');
+  document.getElementById('whyChooseGrid').innerHTML = DATA.whyChoose.map(w=>`<div class="chip">${ic(w.icon)}<span>${w.title}</span></div>`).join('');
+  document.getElementById('whyChooseGrid2').innerHTML = DATA.whyChoose.map(w=>`<div class="chip">${ic(w.icon)}<span>${w.title}</span></div>`).join('');
+  document.getElementById('industriesGrid').innerHTML = DATA.industries.map(i=>`<div class="chip">${ic(i.icon)}<span>${i.title}</span></div>`).join('');
+  document.getElementById('techGrid').innerHTML = DATA.technologies.map(t=>`<div class="tech-pill">${t}</div>`).join('');
+  document.getElementById('homeProjectCards').innerHTML = DATA.projects.slice(0,3).map(renderProjectCard).join('');
+  document.getElementById('faqList').innerHTML = DATA.faq.map((f,i)=>`
+    <div class="faq-item ${i===0?'open':''}" data-i="${i}">
+      <div class="faq-q"><span>${f.q}</span>${ic('gear').replace('gear','')}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+      <div class="faq-a"><p>${f.a}</p></div>
+    </div>`).join('');
+  document.querySelectorAll('#faqList .faq-item').forEach(el=>{
+    el.querySelector('.faq-q').addEventListener('click',()=>{
+      const wasOpen = el.classList.contains('open');
+      document.querySelectorAll('#faqList .faq-item').forEach(x=>x.classList.remove('open'));
+      if(!wasOpen) el.classList.add('open');
+    });
+  });
+  renderTestimonials();
+  initCounters();
+}
+function renderProjectCard(p){
+  return `<div class="proj-card reveal"><div class="proj-media">${ic('chart')}</div><div class="proj-body"><h3 style="font-size:16.5px; font-weight:700;">${p.title}</h3><p style="font-size:13.5px; margin-top:8px;">${p.desc}</p><div class="proj-tags"><span class="tag">${p.tag1}</span><span class="tag">${p.tag2}</span></div></div></div>`;
+}
+let testiIdx = 0, testiTimer=null;
+function renderTestimonials(){
+  const track = document.getElementById('testiTrack');
+  const dots = document.getElementById('testiDots');
+  track.innerHTML = DATA.testimonials.map((t,i)=>`
+    <div class="testi-slide ${i===0?'active':''}" data-i="${i}">
+      <div class="testi-card"><p>&ldquo;${t.text}&rdquo;</p>
+        <div class="testi-who"><div class="testi-avatar">${t.name.charAt(0)}</div>
+        <div style="text-align:left"><b style="font-size:14px;">${t.name}</b><div style="font-size:12.5px; color:var(--muted);">${t.role}</div></div></div>
+      </div>
+    </div>`).join('');
+  dots.innerHTML = DATA.testimonials.map((_,i)=>`<button class="${i===0?'active':''}" data-i="${i}"></button>`).join('');
+  dots.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>showTesti(+b.dataset.i)));
+  testiIdx=0;
+  clearInterval(testiTimer);
+  testiTimer = setInterval(()=>showTesti((testiIdx+1)%DATA.testimonials.length), 6000);
+}
+function showTesti(i){
+  testiIdx=i;
+  document.querySelectorAll('.testi-slide').forEach(s=>s.classList.toggle('active', +s.dataset.i===i));
+  document.querySelectorAll('.testi-dots button').forEach(b=>b.classList.toggle('active', +b.dataset.i===i));
+}
+function renderServicesPage(){
+  const cats = ['All', ...new Set(DATA.services.map(s=>s.cat))];
+  const tabs = document.getElementById('serviceTabs');
+  let activeCat = 'All';
+  function draw(){
+    tabs.innerHTML = cats.map(c=>`<button class="tab-chip ${c===activeCat?'active':''}" data-c="${c}">${c}</button>`).join('');
+    tabs.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{ activeCat=b.dataset.c; draw(); }));
+    const list = activeCat==='All' ? DATA.services : DATA.services.filter(s=>s.cat===activeCat);
+    document.getElementById('serviceCards').innerHTML = list.map(renderServiceCard).join('');
+    observeReveal();
+  }
+  draw();
+}
+function renderPortfolioPage(){
+  document.getElementById('portfolioCards').innerHTML = DATA.projects.map(renderProjectCard).join('');
+}
+function renderBlogPage(){
+  document.getElementById('blogCards').innerHTML = DATA.blog.map(b=>`
+    <div class="blog-card reveal"><div class="blog-media"></div><div class="blog-body">
+      <span class="blog-cat">${b.cat}</span><h3>${b.title}</h3><p style="font-size:13.5px; margin-top:8px;">${b.excerpt}</p>
+      <div class="meta">${b.date}</div></div></div>`).join('');
+}
+function renderCareersPage(){
+  document.getElementById('jobList').innerHTML = DATA.careers.map(j=>`
+    <div class="job-card reveal"><div><h4>${j.title}</h4><div class="meta">${j.location}</div>
+    <div class="job-tags"><span class="tag">${j.type}</span></div></div>
+    <a href="#/careers" class="btn btn-ghost btn-sm" onclick="document.getElementById('careerForm').scrollIntoView({behavior:'smooth'})">Apply Now</a></div>`).join('');
+  const sel = document.getElementById('careerPositionSelect');
+  sel.innerHTML = DATA.careers.map(j=>`<option>${j.title}</option>`).join('') + '<option>Other / General Application</option>';
+}
+
+/* ============================================================
+   COUNTERS + SCROLL REVEAL
+   ============================================================ */
+function initCounters(){
+  document.querySelectorAll('.counter').forEach(el=>{
+    if(el.dataset.done) return;
+    const target = +el.dataset.target;
+    const io = new IntersectionObserver(entries=>{
+      entries.forEach(en=>{
+        if(en.isIntersecting && !el.dataset.done){
+          el.dataset.done = '1';
+          let cur=0; const step = Math.max(1, target/40);
+          const t = setInterval(()=>{ cur+=step; if(cur>=target){ cur=target; clearInterval(t);} el.textContent = Math.floor(cur); },30);
+          io.disconnect();
+        }
+      });
+    },{threshold:.4});
+    io.observe(el);
+  });
+}
+let revealObserver;
+function observeReveal(){
+  if(!revealObserver){
+    revealObserver = new IntersectionObserver(entries=>{
+      entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); revealObserver.unobserve(en.target);} });
+    },{threshold:.12});
+  }
+  document.querySelectorAll('.reveal:not(.in)').forEach(el=>revealObserver.observe(el));
+}
+
+/* ============================================================
+   ROUTER
+   ============================================================ */
+const PAGES = ['home','about','services','portfolio','blog','careers','contact','admin'];
+function router(){
+  const hash = (location.hash || '#/home').replace('#/','');
+  const page = PAGES.includes(hash) ? hash : 'home';
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+page).classList.add('active');
+  document.querySelectorAll('nav.links a').forEach(a=>a.classList.toggle('active', a.dataset.link===page));
+  window.scrollTo({top:0, behavior:'instant' in window ? 'instant':'auto'});
+  closeMobileNav();
+  if(page==='services') renderServicesPage();
+  if(page==='portfolio') renderPortfolioPage();
+  if(page==='blog') renderBlogPage();
+  if(page==='careers') renderCareersPage();
+  if(page==='admin') renderAdmin();
+  observeReveal();
+}
+window.addEventListener('hashchange', router);
+
+/* ============================================================
+   NAV BEHAVIOR
+   ============================================================ */
+const header = document.getElementById('siteHeader');
+window.addEventListener('scroll', ()=>{
+  header.classList.toggle('scrolled', window.scrollY>30);
+  document.getElementById('backTop').classList.toggle('show', window.scrollY>500);
+});
+const burger = document.getElementById('burgerBtn');
+const navLinks = document.getElementById('navLinks');
+const navScrim = document.getElementById('navScrim');
+burger.innerHTML = ic('menu');
+function closeMobileNav(){ navLinks.classList.remove('open'); navScrim.classList.remove('show'); burger.innerHTML = ic('menu'); }
+burger.addEventListener('click', ()=>{
+  const open = navLinks.classList.toggle('open');
+  navScrim.classList.toggle('show', open);
+  burger.innerHTML = ic(open?'close':'menu');
+});
+navScrim.addEventListener('click', closeMobileNav);
+document.getElementById('backTop').addEventListener('click', ()=>window.scrollTo({top:0, behavior:'smooth'}));
+document.getElementById('backTop').innerHTML = ic('up');
+
+/* dark mode */
+const darkToggle = document.getElementById('darkToggle');
+function setTheme(t){ document.body.setAttribute('data-theme', t); darkToggle.innerHTML = ic(t==='dark'?'sun':'moon'); }
+setTheme('light');
+darkToggle.addEventListener('click', ()=>{
+  const cur = document.body.getAttribute('data-theme');
+  setTheme(cur==='dark'?'light':'dark');
+});
+
+/* ============================================================
+   FORMS
+   ============================================================ */
+/* ------------------------------------------------------------------
+   CONTACT FORM → GOOGLE SHEET
+   Paste your deployed Google Apps Script Web App URL below.
+   (See "Google Sheet Setup" in README for step-by-step instructions.)
+   To change the destination sheet later, just re-deploy the script
+   bound to a new sheet and paste the new URL here.
+------------------------------------------------------------------ */
+const CONTACT_FORM_ENDPOINT = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+
+document.getElementById('contactForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const form = e.target;
+  const msg = document.getElementById('contactMsg');
+  const fd = new FormData(form);
+  const entry = Object.fromEntries(fd.entries());
+
+  // 1) Validate required fields
+  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const missing = ['name','email','phone','message'].filter(k => !String(entry[k]||'').trim());
+  if(missing.length){
+    msg.textContent = 'Please fill in all required fields (Name, Email, Phone and Message).';
+    msg.className = 'form-msg err';
+    return;
+  }
+  if(!emailRe.test(String(entry.email).trim())){
+    msg.textContent = 'Please enter a valid email address.';
+    msg.className = 'form-msg err';
+    return;
+  }
+
+  entry.id = 'CT-'+Date.now();
+  entry.date = new Date().toISOString();
+
+  // Keep a local copy so the admin panel still lists submissions
+  DATA.submissions.unshift(entry);
+  await saveData();
+
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalLabel = submitBtn.textContent;
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Sending…';
+  msg.textContent = 'Sending your message…';
+  msg.className = 'form-msg';
+
+  try{
+    if(!CONTACT_FORM_ENDPOINT || CONTACT_FORM_ENDPOINT.indexOf('PASTE_YOUR') === 0){
+      throw new Error('not-configured');
+    }
+    const payload = {
+      name: entry.name,
+      company: entry.company || '',
+      email: entry.email,
+      phone: entry.phone,
+      service: entry.service || '',
+      message: entry.message
+    };
+    // Plain-text body = "simple" request, so the browser skips the CORS
+    // preflight that Apps Script cannot answer. The script parses the JSON.
+    const res = await fetch(CONTACT_FORM_ENDPOINT, {
+      method: 'POST',
+      body: JSON.stringify(payload)
+    });
+    let data = null;
+    try { data = await res.json(); } catch(_) {}
+    if(!res.ok || !data || data.result !== 'success'){
+      throw new Error('submit-failed');
+    }
+    // 4) Success message
+    msg.textContent = 'Thank you! Your message has been sent successfully — we will get back to you shortly.';
+    msg.className = 'form-msg ok';
+    form.reset();
+  }catch(err){
+    if(err.message === 'not-configured'){
+      // Endpoint not wired up yet — don't lose the enquiry silently.
+      msg.textContent = 'Thanks! Your message has been recorded. (Note to site owner: the Google Sheet endpoint is not configured yet — see the setup guide.)';
+      msg.className = 'form-msg ok';
+      form.reset();
+    } else {
+      // 5) Error handling
+      msg.textContent = 'Sorry, something went wrong while sending your message. Please try again, or email us directly at sascinfrasolutions@gmail.com.';
+      msg.className = 'form-msg err';
+    }
+  }finally{
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalLabel;
+  }
+});
+document.getElementById('careerForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  const entry = Object.fromEntries(fd.entries());
+  entry.id = 'APP-'+Date.now();
+  entry.date = new Date().toISOString();
+  DATA.applications.unshift(entry);
+  await saveData();
+  const subject = encodeURIComponent('Job Application — ' + entry.position + ' — ' + entry.name);
+  const body = encodeURIComponent(
+    'Name: ' + entry.name + '\nEmail: ' + entry.email + '\nPhone: ' + entry.phone +
+    '\nPosition: ' + entry.position + '\n\nCover Note:\n' + (entry.message||'-') +
+    '\n\nReference: ' + entry.id + '\n\n(Please attach your resume to this email before sending.)'
+  );
+  window.location.href = 'mailto:careers@sascinfra.com?subject=' + subject + '&body=' + body;
+  const msg = document.getElementById('careerMsg');
+  msg.textContent = 'Thanks! Your email app should now open, pre-filled — reference ' + entry.id + '. Attach your resume and hit send.';
+  msg.className = 'form-msg ok';
+  e.target.reset();
+});
+
+/* ============================================================
+   ADMIN
+   ============================================================ */
+const ADMIN_CODE = 'sasc-admin';
+let adminAuthed = false;
+document.getElementById('adminLoginBtn').addEventListener('click', ()=>{
+  const val = document.getElementById('adminPass').value;
+  if(val === ADMIN_CODE){ adminAuthed = true; renderAdmin(); }
+  else document.getElementById('adminLoginMsg').textContent = 'Incorrect access code. Please try again.';
+});
+document.getElementById('adminLogoutBtn').addEventListener('click', ()=>{ adminAuthed=false; renderAdmin(); });
+
+const ADMIN_TABS = [
+  {key:'services', label:'Services'},
+  {key:'projects', label:'Projects'},
+  {key:'testimonials', label:'Testimonials'},
+  {key:'blog', label:'Blog'},
+  {key:'careers', label:'Careers'},
+  {key:'submissions', label:'Contact Requests'},
+  {key:'applications', label:'Job Applications'},
+];
+let activeAdminTab = 'services';
+
+function renderAdmin(){
+  document.getElementById('adminLock').style.display = adminAuthed ? 'none':'flex';
+  document.getElementById('adminShell').style.display = adminAuthed ? 'block':'none';
+  if(!adminAuthed) return;
+  const tabsEl = document.getElementById('adminTabs');
+  tabsEl.innerHTML = ADMIN_TABS.map(t=>`<button class="tab-chip ${t.key===activeAdminTab?'active':''}" data-k="${t.key}">${t.label}</button>`).join('');
+  tabsEl.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{ activeAdminTab=b.dataset.k; renderAdmin(); }));
+  const panels = document.getElementById('adminPanels');
+
+  if(activeAdminTab==='services') panels.innerHTML = adminSimpleList('services', s=>`<b>${s.title}</b><div class="meta-txt">${s.cat} · ${s.desc}</div>`, {title:'Title', cat:'Category', desc:'Description'});
+  if(activeAdminTab==='projects') panels.innerHTML = adminSimpleList('projects', p=>`<b>${p.title}</b><div class="meta-txt">${p.tag1}, ${p.tag2} — ${p.desc}</div>`, {title:'Title', tag1:'Tag 1', tag2:'Tag 2', desc:'Description'});
+  if(activeAdminTab==='testimonials') panels.innerHTML = adminSimpleList('testimonials', t=>`<b>${t.name}</b><div class="meta-txt">${t.role} — "${t.text}"</div>`, {name:'Name', role:'Role', text:'Testimonial'});
+  if(activeAdminTab==='blog') panels.innerHTML = adminSimpleList('blog', b=>`<b>${b.title}</b><div class="meta-txt">${b.cat} · ${b.date} — ${b.excerpt}</div>`, {title:'Title', cat:'Category', date:'Date', excerpt:'Excerpt'});
+  if(activeAdminTab==='careers') panels.innerHTML = adminSimpleList('careers', j=>`<b>${j.title}</b><div class="meta-txt">${j.type} · ${j.location}</div>`, {title:'Title', type:'Type', location:'Location'});
+  if(activeAdminTab==='submissions') panels.innerHTML = adminReadonlyList('submissions', s=>`<b>${s.name} — ${s.service||''}</b><div class="meta-txt">${s.email} · ${s.phone} · ${s.company||'—'}</div><div class="meta-txt">${s.message}</div><div class="meta-txt">${s.id} · ${new Date(s.date).toLocaleString()}</div>`);
+  if(activeAdminTab==='applications') panels.innerHTML = adminReadonlyList('applications', a=>`<b>${a.name} — ${a.position}</b><div class="meta-txt">${a.email} · ${a.phone}</div><div class="meta-txt">${a.message||''}</div><div class="meta-txt">${a.id} · ${new Date(a.date).toLocaleString()}</div>`);
+
+  bindAdminActions();
+}
+function adminSimpleList(key, renderFn, fields){
+  const items = DATA[key];
+  const list = items.map((it,i)=>`
+    <div class="admin-list-item">
+      <div>${renderFn(it)}</div>
+      <div style="display:flex; gap:8px;">
+        <button class="mini-btn" data-act="edit" data-key="${key}" data-i="${i}">Edit</button>
+        <button class="mini-btn danger" data-act="del" data-key="${key}" data-i="${i}">Delete</button>
+      </div>
+    </div>`).join('') || '<div class="empty-note">Nothing here yet.</div>';
+  return `<div>${list}<button class="btn btn-primary btn-sm" data-act="add" data-key="${key}" data-fields='${JSON.stringify(fields)}' style="margin-top:10px;">+ Add New</button></div>`;
+}
+function adminReadonlyList(key, renderFn){
+  const items = DATA[key];
+  const list = items.map((it,i)=>`
+    <div class="admin-list-item">
+      <div style="flex:1;">${renderFn(it)}</div>
+      <button class="mini-btn danger" data-act="del" data-key="${key}" data-i="${i}">Delete</button>
+    </div>`).join('') || '<div class="empty-note">No entries yet.</div>';
+  return list;
+}
+function bindAdminActions(){
+  document.querySelectorAll('[data-act="del"]').forEach(b=>b.addEventListener('click', async ()=>{
+    const key=b.dataset.key, i=+b.dataset.i;
+    if(confirm('Delete this entry?')){ DATA[key].splice(i,1); await saveData(); renderAdmin(); refreshPublicSections(); }
+  }));
+  document.querySelectorAll('[data-act="edit"]').forEach(b=>b.addEventListener('click', ()=>openAdminForm(b.dataset.key, +b.dataset.i)));
+  document.querySelectorAll('[data-act="add"]').forEach(b=>b.addEventListener('click', ()=>openAdminForm(b.dataset.key, -1, JSON.parse(b.dataset.fields))));
+}
+function openAdminForm(key, index, fieldsOverride){
+  const isNew = index===-1;
+  const item = isNew ? {} : DATA[key][index];
+  const fieldDefs = fieldsOverride || Object.fromEntries(Object.keys(item).map(k=>[k,k]));
+  const formHtml = Object.entries(fieldDefs).map(([k,label])=>`
+    <div class="field"><label>${label}</label>
+    ${k==='desc'||k==='text'||k==='excerpt' ? `<textarea data-f="${k}">${item[k]||''}</textarea>` : `<input data-f="${k}" value="${(item[k]||'').toString().replace(/"/g,'&quot;')}">`}
+    </div>`).join('');
+  const wrap = document.createElement('div');
+  wrap.style.cssText='position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:2000; display:flex; align-items:center; justify-content:center; padding:20px;';
+  wrap.innerHTML = `<div class="form-card" style="max-width:480px; width:100%; max-height:85vh; overflow:auto;">
+    <h3 style="font-size:18px; margin-bottom:16px;">${isNew?'Add':'Edit'} Entry</h3>
+    <div id="dynForm">${formHtml}</div>
+    <div style="display:flex; gap:10px; margin-top:10px;">
+      <button class="btn btn-primary" id="dynSave" style="flex:1;">Save</button>
+      <button class="btn btn-ghost" id="dynCancel" style="flex:1;">Cancel</button>
+    </div>
+  </div>`;
+  document.body.appendChild(wrap);
+  wrap.querySelector('#dynCancel').addEventListener('click', ()=>wrap.remove());
+  wrap.querySelector('#dynSave').addEventListener('click', async ()=>{
+    const newItem = {};
+    wrap.querySelectorAll('[data-f]').forEach(el=> newItem[el.dataset.f] = el.value);
+    if(isNew) DATA[key].push(newItem); else DATA[key][index] = newItem;
+    await saveData();
+    wrap.remove();
+    renderAdmin();
+    refreshPublicSections();
+  });
+}
+function refreshPublicSections(){
+  renderHome();
+  if(document.getElementById('page-services').classList.contains('active')) renderServicesPage();
+  if(document.getElementById('page-portfolio').classList.contains('active')) renderPortfolioPage();
+  if(document.getElementById('page-blog').classList.contains('active')) renderBlogPage();
+  if(document.getElementById('page-careers').classList.contains('active')) renderCareersPage();
+}
+
+/* ============================================================
+   INIT
+   ============================================================ */
+(async function init(){
+  await loadData();
+  renderHome();
+  router();
+})();
+</script>
+</body>
+</html>
